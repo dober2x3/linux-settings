@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 
 
-ubuntu
+#ubuntu
 sudo apt update && sudo apt upgrade -y
 sudo apt install ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagemagick
 sudo apt install zsh
@@ -15,5 +15,5 @@ sudo apt install curl iputils-ping cifs-utils
 
 
 
-OpenClaw
+#OpenClaw
 curl -fsSL https://openclaw.ai/install.sh | bash -s -- --no-onboard
