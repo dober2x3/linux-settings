@@ -40,3 +40,8 @@ rm -rf ~/.config/nvim/.git
 ```bash
 curl -fsSL https://openclaw.ai/install.sh | bash -s -- --no-onboard
 ```
+## Oher
+
+```bash
+ssh -N -L 4200:127.0.0.1:4200 hoth
+```
